@@ -1,0 +1,1 @@
+Skrypt robiony dawno temu, miałem dodac tak zeby nie trzeba było cały czas klikać ale wtedy nie dodałem a teraz już zbytio nwm jak :(

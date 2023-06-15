@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SEAL GAME</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="score hidden">
+      <h1>Punkty: 0</h1>
+    </div>
+    <div class="header remove">
+      <h1>Dorwij foke!</h1>
+    </div>
+    <div class="startBlock remove">
+      <h2>Kliknij w przycisk aby rozpocząć grę</h2>
+      <p>Zdobądź jak najwięcej fok w ciagu 30 sekund</p>
+      <button id="startBtn">START</button>
+    </div>
+    <div class="game hidden">
+      <img id="player" src="images/character.gif" alt="" />
+      <img id="coin" src="images/foka.png" alt="foka" />
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

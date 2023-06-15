@@ -1,0 +1,91 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background: url("images/bck.jpg");
+}
+
+.header {
+  font-size: 2rem;
+  text-shadow: 4px 5px 8px rgba(66, 68, 90, 1);
+}
+
+.header h1,
+.score {
+  font-family: "Lilita One";
+  font-weight: 100;
+  text-align: center;
+  color: white;
+}
+
+.score {
+  font-size: 1.25rem;
+  text-shadow: 4px 5px 8px rgba(66, 68, 90, 1);
+}
+
+img {
+  width: 100px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+#coin {
+  width: 125px;
+}
+
+.hidden {
+  display: none;
+}
+
+.startBlock {
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.897);
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+}
+
+.startBlock h2 {
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.startBlock p {
+  font-size: 1rem;
+}
+
+#startBtn {
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+  padding: 17px 35px;
+  border: 0;
+  color: #fff;
+  font-size: 17.5px;
+  border: 2px solid transparent;
+  border-color: #000;
+  color: #000;
+  background: transparent;
+  font-weight: 800;
+  line-height: 30px;
+  transition: all 0.1s ease-in-out;
+}
+
+#startBtn:hover {
+  background-color: #000;
+  color: #fff;
+}

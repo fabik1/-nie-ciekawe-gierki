@@ -1,0 +1,73 @@
+* {
+  color: white;
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+}
+
+body {
+  background: rgb(35, 125, 162);
+  background: linear-gradient(
+    90deg,
+    rgba(35, 125, 162, 1) 0%,
+    rgba(39, 185, 214, 1) 100%,
+    rgba(9, 83, 121, 1) 100%
+  );
+}
+
+h1 {
+  font-size: 40px;
+  margin: 50px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 100;
+  margin-top: 50px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+#board {
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  margin: 0 auto;
+  border: 10px solid rgb(255, 255, 255);
+  background-image: url("images/bck.png");
+}
+
+.row {
+  width: 600px;
+  height: 100px;
+  display: flex;
+}
+
+.areas {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  /* border: 5px solid rgb(255, 255, 255); */
+}
+
+.statek {
+  background-image: url("images/ship.png");
+  background-size: contain;
+}
+
+.miss {
+  background-image: url("images/cross.png");
+  background-size: cover;
+  /* background-color: rgb(71, 151, 204); */
+}
+
+/* .menu {
+  width: 500px;
+  height: 500px;
+  background-color: aliceblue;
+  position: absolute;
+  top: 185px;
+  left: 800px;
+} */
